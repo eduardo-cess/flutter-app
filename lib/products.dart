@@ -11,7 +11,7 @@ class Products extends StatelessWidget {
     return Card(
       child: Column(
         children: <Widget>[
-          Image.asset('assets/food.jpg'),
+          Image.asset('assets/images/food.jpg'),
           Text(products[index])
         ],
       ),
